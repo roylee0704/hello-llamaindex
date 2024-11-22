@@ -79,7 +79,7 @@
                     <mxGeometry x="510" y="485" width="270" height="230" as="geometry"/>
                 </mxCell>
                 <mxCell id="69" value="* think of List[Documents] as sections/segments in your physical file." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-                    <mxGeometry x="110" y="620" width="390" height="30" as="geometry"/>
+                    <mxGeometry x="100" y="710" width="390" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="71" value="Document" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
                     <mxGeometry x="510" y="784" width="325" height="242" as="geometry"/>
