@@ -1,0 +1,144 @@
+<mxfile host="65bd71144e">
+    <diagram id="unD7bkULjOMlFm8Qx_BB" name="Page-1">
+        <mxGraphModel dx="511" dy="319" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="8" value="File" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+                    <mxGeometry x="120" y="150" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="8" target="12">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="200" y="190" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="17" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="12" target="14">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="Simple&lt;br&gt;DirectoryReader&lt;br&gt;(llma-index)" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+                    <mxGeometry x="280" y="160" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="Documents" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+                    <mxGeometry x="460" y="165" width="90" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="Documents" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+                    <mxGeometry x="470" y="175" width="90" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="Document" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+                    <mxGeometry x="480" y="185" width="90" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="File" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="141" y="120" width="40" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="List[Document]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="465" y="130" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" style="edgeStyle=none;html=1;dashed=1;startArrow=none;" edge="1" parent="1" source="37" target="34">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="Markdown&lt;br&gt;DocsReader&lt;br&gt;(own reader)" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+                    <mxGeometry x="280" y="290" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="or" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="325" y="250" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="Documents" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+                    <mxGeometry x="295" y="510" width="90" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="" style="edgeStyle=none;html=1;dashed=1;endArrow=none;" edge="1" parent="1" source="30" target="37">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="340" y="350" as="sourcePoint"/>
+                        <mxPoint x="340" y="510" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="37" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+                    <mxGeometry x="330" y="400" width="20" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="&lt;span style=&quot;&quot;&gt;&lt;u&gt;line-by-line: &lt;br&gt;&lt;/u&gt;&lt;br&gt;extract text and create&amp;nbsp;your own text, metadata &amp;amp; relationships&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="70" y="420" width="360" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" value="Documents" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+                    <mxGeometry x="305" y="520" width="90" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="47" value="Document" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+                    <mxGeometry x="315" y="530" width="90" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="49" value="Document&lt;span style=&quot;color: rgb(171, 178, 191);&quot; class=&quot;token&quot;&gt;(&lt;/span&gt;&lt;br&gt;    text&lt;span style=&quot;color: rgb(97, 175, 239);&quot; class=&quot;token&quot;&gt;=&lt;/span&gt;&lt;span style=&quot;color: rgb(152, 195, 121);&quot; class=&quot;token&quot;&gt;&quot;print(\&quot;hello\&quot;)&quot;&lt;/span&gt;&lt;span style=&quot;color: rgb(171, 178, 191);&quot; class=&quot;token&quot;&gt;,&lt;br&gt;&lt;/span&gt;&lt;br&gt;    metadata&lt;span style=&quot;color: rgb(97, 175, 239);&quot; class=&quot;token&quot;&gt;=&lt;/span&gt;&lt;span style=&quot;color: rgb(171, 178, 191);&quot; class=&quot;token&quot;&gt;{&lt;/span&gt;&lt;br&gt;        &lt;span style=&quot;color: rgb(152, 195, 121);&quot; class=&quot;token&quot;&gt;&quot;File Name&quot;&lt;/span&gt;&lt;span style=&quot;color: rgb(171, 178, 191);&quot; class=&quot;token&quot;&gt;:&lt;/span&gt; &lt;span style=&quot;color: rgb(152, 195, 121);&quot; class=&quot;token&quot;&gt;&quot;example.md&quot;&lt;/span&gt;&lt;span style=&quot;color: rgb(171, 178, 191);&quot; class=&quot;token&quot;&gt;,&lt;/span&gt;&lt;br&gt;        &lt;span style=&quot;color: rgb(152, 195, 121);&quot; class=&quot;token&quot;&gt;&quot;Content Type&quot;&lt;/span&gt;&lt;span style=&quot;color: rgb(171, 178, 191);&quot; class=&quot;token&quot;&gt;:&lt;/span&gt; &lt;span style=&quot;color: rgb(152, 195, 121);&quot; class=&quot;token&quot;&gt;&quot;code&quot;&lt;/span&gt;&lt;span style=&quot;color: rgb(171, 178, 191);&quot; class=&quot;token&quot;&gt;,&lt;/span&gt;&lt;br&gt;        &lt;span style=&quot;color: rgb(152, 195, 121);&quot; class=&quot;token&quot;&gt;&quot;Header Path&quot;&lt;/span&gt;&lt;span style=&quot;color: rgb(171, 178, 191);&quot; class=&quot;token&quot;&gt;:&lt;/span&gt; &lt;span style=&quot;color: rgb(152, 195, 121);&quot; class=&quot;token&quot;&gt;&quot;Section 1&quot;&lt;/span&gt;&lt;span style=&quot;color: rgb(171, 178, 191);&quot; class=&quot;token&quot;&gt;,&lt;/span&gt;&lt;br&gt;    &lt;span style=&quot;color: rgb(171, 178, 191);&quot; class=&quot;token&quot;&gt;}&lt;/span&gt;&lt;span style=&quot;color: rgb(171, 178, 191);&quot; class=&quot;token&quot;&gt;,&lt;br&gt;&lt;/span&gt;&lt;br&gt;    relationships&lt;span style=&quot;color: rgb(97, 175, 239);&quot; class=&quot;token&quot;&gt;=&lt;/span&gt;&lt;span style=&quot;color: rgb(171, 178, 191);&quot; class=&quot;token&quot;&gt;{&lt;/span&gt;&lt;br&gt;        NodeRelationship&lt;span style=&quot;color: rgb(171, 178, 191);&quot; class=&quot;token&quot;&gt;.&lt;/span&gt;PARENT&lt;span style=&quot;color: rgb(171, 178, 191);&quot; class=&quot;token&quot;&gt;:&lt;/span&gt; RelatedNodeInfo&lt;span style=&quot;color: rgb(171, 178, 191);&quot; class=&quot;token&quot;&gt;(&lt;/span&gt;&lt;br&gt;            node_id&lt;span style=&quot;color: rgb(97, 175, 239);&quot; class=&quot;token&quot;&gt;=&lt;/span&gt;&lt;span style=&quot;color: rgb(97, 175, 239);&quot; class=&quot;token&quot;&gt;&amp;lt;&lt;/span&gt;id_of_first_text_document&lt;span style=&quot;color: rgb(97, 175, 239);&quot; class=&quot;token&quot;&gt;&amp;gt;&lt;/span&gt;&lt;br&gt;        &lt;span style=&quot;color: rgb(171, 178, 191);&quot; class=&quot;token&quot;&gt;)&lt;/span&gt;&lt;br&gt;    &lt;span style=&quot;color: rgb(171, 178, 191);&quot; class=&quot;token&quot;&gt;}&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;color: rgb(171, 178, 191);&quot; class=&quot;token&quot;&gt;)&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="520" y="290" width="270" height="230" as="geometry"/>
+                </mxCell>
+                <mxCell id="69" value="* think of List[Documents] as sections/segments in your physical file." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="98" y="630" width="390" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="71" value="Document" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+                    <mxGeometry x="508" y="704" width="325" height="268" as="geometry"/>
+                </mxCell>
+                <mxCell id="72" value="+ text: str" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="71">
+                    <mxGeometry y="26" width="325" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="85" value="+ metadata: dict" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="71">
+                    <mxGeometry y="52" width="325" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="84" value="+ relationships: dict&lt;NodeRelationship,RelatedNodeInfo&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="71">
+                    <mxGeometry y="78" width="325" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="95" value="+ text_template: str" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="71">
+                    <mxGeometry y="104" width="325" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="96" value="+ metadata_template: str" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="71">
+                    <mxGeometry y="130" width="325" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="97" value="+ metadata_separator: str" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="71">
+                    <mxGeometry y="156" width="325" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="73" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="71">
+                    <mxGeometry y="182" width="325" height="8" as="geometry"/>
+                </mxCell>
+                <mxCell id="74" value="+ get_content(): str =&gt; template(text + metadata) &#10; " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="71">
+                    <mxGeometry y="190" width="325" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="86" value="+ template_metadata_str(): str" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="71">
+                    <mxGeometry y="216" width="325" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="112" value="+ template_content(): str" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="71">
+                    <mxGeometry y="242" width="325" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="98" value="BaseReader (llama)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+                    <mxGeometry x="119" y="670" width="209" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="100" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="98">
+                    <mxGeometry y="26" width="209" height="8" as="geometry"/>
+                </mxCell>
+                <mxCell id="101" value="+ load_data(type): List[Document]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="98">
+                    <mxGeometry y="34" width="209" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="105" style="edgeStyle=none;html=1;endArrow=block;endFill=0;" edge="1" parent="1" source="102" target="101">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="102" value="SimpleDirectoryReader (llama)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+                    <mxGeometry x="18" y="850" width="209" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="103" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="102">
+                    <mxGeometry y="26" width="209" height="8" as="geometry"/>
+                </mxCell>
+                <mxCell id="104" value="+ load_data(type): List[Document]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="102">
+                    <mxGeometry y="34" width="209" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="109" style="edgeStyle=none;html=1;entryX=0.539;entryY=1.013;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=block;endFill=0;" edge="1" parent="1" source="106" target="101">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="106" value="MarkdownDocsReader (own)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+                    <mxGeometry x="243.5" y="850" width="209" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="107" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="106">
+                    <mxGeometry y="26" width="209" height="8" as="geometry"/>
+                </mxCell>
+                <mxCell id="108" value="+ load_data(type): List[Document]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="106">
+                    <mxGeometry y="34" width="209" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="110" style="edgeStyle=none;html=1;entryX=-0.008;entryY=0.056;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=classic;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="101" target="71">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

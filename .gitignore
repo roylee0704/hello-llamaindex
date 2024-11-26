@@ -1,0 +1,7 @@
+.env
+__pycache__/
+.ipynb_checkpoints/
+/oc/1_claude_pdf_support/MN1005.pdf
+/oc/1_claude_pdf_support/BCA.pdf
+/oc/1_claude_pdf_support/Memo 3.pdf
+/oc
