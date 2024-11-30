@@ -5,3 +5,6 @@ __pycache__/
 /oc/1_claude_pdf_support/BCA.pdf
 /oc/1_claude_pdf_support/Memo 3.pdf
 /oc
+
+# i want to ignore the DStore from mac
+.DS_Store
