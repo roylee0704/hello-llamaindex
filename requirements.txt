@@ -1,5 +1,21 @@
-llama-index==0.12.1
-llama-index-llms-openai==0.3.1
+# environment
 python-dotenv==1.0.1
+
+# jupyter
 jupyter==1.1.1
 ipykernel
+
+# local embeddings:
+# https://docs.llamaindex.ai/en/stable/examples/embeddings/huggingface/#local-embeddings-with-huggingface
+llama-index-embeddings-huggingface
+llama-index-embeddings-instructor
+
+# note(roy): instructor is not working in the latest version of sentence-transformers
+# it works for 2.2.2, but it requires older version of llama-index to work.
+sentence-transformers
+InstructorEmbedding
+
+
+# llma index
+llama-index==0.12.1
+llama-index-llms-openai==0.3.1
