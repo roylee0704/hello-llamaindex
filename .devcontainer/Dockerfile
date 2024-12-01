@@ -7,6 +7,7 @@ RUN apt-get update && apt-get install -y \
     libffi-dev \
     libssl-dev \
     git \
+    curl \
     && apt-get clean && rm -rf /var/lib/apt/lists/*
 
 # Upgrade pip, setuptools, and wheel to ensure compatibility
